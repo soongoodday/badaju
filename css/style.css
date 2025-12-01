@@ -764,7 +764,7 @@ body {
 
 
 
-/* 서브 css */
+/* 서브1 css */
 /* 비주얼 */
 .sub1 .visual {
     width: 100%;
@@ -782,7 +782,7 @@ body {
 
 /* 섹션 */
 /* 섹션1 */
-.sub1 .section {
+.sub1 .section_wrap .section {
     width: 1920px;
     margin: 0 auto;
 }
@@ -794,7 +794,7 @@ body {
 
 
 .sub1 .section_wrap .section .section1 .section_box {
-    width: 1097px;
+    width: 1320px;
     height: 872px;
     margin: 0 auto;
     display: flex;
@@ -864,7 +864,7 @@ body {
 
 
 .sub1 .section_wrap .section .section2 .section_box {
-    width: 1097px;
+    width: 1320px;
     height: 872px;
     margin: 0 auto;
 }
@@ -897,6 +897,7 @@ body {
 
 .sub1 .section_wrap .section .section2 .sub1_section2_wrap {
     display: flex;
+    justify-content: space-between;
 }
 
 
@@ -934,3 +935,152 @@ body {
 .sub1 .section_wrap .section .section2 .juae_picture img {
     width: 100%;
 }
+/* 섹션2 */
+/* 서브1 css */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 서브2 css */
+/* 서브 대제목 */
+.sub_title {
+    max-width: 1320px; 
+    height: 66px;
+    border: 2px solid #319EA3;
+    margin: 0 auto;
+    margin-top: 130px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #319EA3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* 서브 대제목 */
+
+
+
+
+/* 섹션 */
+/* 섹션1 */
+.sub2 .section {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+
+.sub2 .section_wrap .section .section1 {
+    width: 1920px;
+}
+
+
+.sub2 .section_wrap .section .section1 .section_box {
+    width: 1320px;
+    height: 872px;
+    margin: 0 auto;
+    display: flex;
+    border: 1px solid #000;
+}
+
+
+.sub2 .section_wrap .section .section1 .section_box .sub1_titlebox {
+    display: flex;
+    height: 112px;
+}
+
+
+.sub2 .section_wrap .section .section1 .section_box .sub1_titlebox .sub1_section_line {
+    width: 1px;
+    height: 89px;
+    background: #a5a5a5;
+}
+
+
+.sub2 .section_wrap .section .section1 .section_box .sub1_titlebox .sub1_section_title {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 140%;
+    color: #319EA3;
+    margin-left: 91px;
+}
+/* 섹션1 */
+
+
+
+
+/* 섹션2 */
+.sub2 .section_wrap .section .section2 {
+    width: 1920px;
+}
+
+
+.sub2 .section_wrap .section .section2 .section_box {
+    width: 1320px;
+    height: 872px;
+    margin: 0 auto;
+}
+
+
+.sub2 .section_wrap .section .section2 .section_box .sub1_titlebox {
+    display: flex;
+    height: 112px;
+}
+
+
+.sub2 .section_wrap .section .section2 .section_box .sub1_titlebox .sub1_section_line {
+    width: 1px;
+    height: 89px;
+    background: #a5a5a5;
+}
+
+
+.sub2 .section_wrap .section .section2 .section_box .sub1_titlebox .sub1_section_title {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 140%;
+    color: #319EA3;
+    margin-left: 91px;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
