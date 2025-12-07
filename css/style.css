@@ -791,22 +791,24 @@ body {
 
 /* 섹션 */
 /* 섹션1 */
+.sub1 .section_wrap {
+}
+
+
 .sub1 .section_wrap .section {
-    width: 1920px;
-    margin: 0 auto;
 }
 
 
 .sub1 .section_wrap .section .section1 {
-    width: 1920px;
+    margin: 0 auto;
 }
 
 
 .sub1 .section_wrap .section .section1 .section_box {
-    width: 1320px;
-    height: 872px;
-    margin: 0 auto;
     display: flex;
+    width: 1320px;
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -829,14 +831,12 @@ body {
     line-height: 140%;
     color: #319EA3;
     margin-left: 91px;
+    display: flex;
 }
 
 
 .sub1 .section_wrap .section .section1 .section_box .sub1_section_section {
-    width: 650px; 
     height: 865px;
-    margin-left: 234px;
-
 }
 
 
@@ -847,6 +847,10 @@ body {
 }
 
 
+.sub1 .section_wrap .section .section1 .section_box .sub1_section_section .sub1_sections li {
+    padding-left: 15px;
+}
+
 .sub1 .section_wrap .section .section1 .section_box .sub1_section_section .sub1_sections li:nth-child(1) {
     line-height: 180%;
     font-size: 18px;
@@ -854,10 +858,28 @@ body {
 }
 
 
-.sub1_sections li:nth-child(3n) {
+.sub1_sections li:nth-child(3) {
+    width: 782px;
     height: 25px;
     background: #319EA3;
-    text-indent: 15px;
+    font-size: 16px;
+    color: #fff;
+}
+
+
+.sub1_sections li:nth-child(8) {
+    width: 782px;
+    height: 25px;
+    background: #319EA3;
+    font-size: 16px;
+    color: #fff;
+}
+
+
+.sub1_sections li:nth-child(13) {
+    width: 782px;
+    height: 25px;
+    background: #319EA3;
     font-size: 16px;
     color: #fff;
 }
@@ -867,8 +889,15 @@ body {
 
 
 /* 섹션2 */
+
+.sub1 .section_wrap .section {
+    margin: 0 auto;
+}
+
+
+
 .sub1 .section_wrap .section .section2 {
-    width: 1920px;
+    margin: 0 auto;
 }
 
 
@@ -1001,13 +1030,13 @@ body {
 /* 섹션 */
 /* 섹션1 */
 .sub2 .section {
-    width: 1920px;
     margin: 0 auto;
 }
 
 
 .sub2 .section_wrap .section .section1 {
     width: 1920px;
+    margin: 0 auto;
 }
 
 
@@ -1015,14 +1044,12 @@ body {
     width: 1320px;
     height: 872px;
     margin: 0 auto;
-    display: flex;
     border: 1px solid #000;
 }
 
 
 .sub2 .section_wrap .section .section1 .section_box .sub1_titlebox {
     display: flex;
-    height: 112px;
 }
 
 
@@ -1034,6 +1061,7 @@ body {
 
 
 .sub2 .section_wrap .section .section1 .section_box .sub1_titlebox .sub1_section_title {
+    width: 1320px;
     font-size: 40px;
     font-weight: bold;
     line-height: 140%;
