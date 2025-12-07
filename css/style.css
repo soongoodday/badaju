@@ -80,7 +80,7 @@ body {
 }
 
 
-.header .centerbox .nav .gnb > li {
+.header .centerbox .nav .gnb li {
     position: relative; 
     font-size: 16px;
     text-align: center;
@@ -88,42 +88,51 @@ body {
 }
 
 
-.header .centerbox .nav .gnb > li > a {
+.header .centerbox .nav .gnb li a {
     color: #fff;
     display: block;
     transition: 0.3s;
 }
 
 
-.header .centerbox .nav .gnb > li:hover a{
+.header .centerbox .nav .gnb li:hover a{
     color: #319EA3;
 }
         
 /* lnb */
-.header .centerbox .nav .gnb > li > .lnb {
+.header .centerbox .nav .gnb li .lnb {
     position: absolute; 
-    width: 100%; 
-    height: 0px; 
+    z-index: 10;
+    top: 150%;
+    height: 0;
+    width: 100%;
     background: #319EA3; 
     overflow: hidden; 
     transition: 0.3s;
 }
 
 
-.header .centerbox .nav .gnb > li > .lnb > li {
+.header .centerbox .nav .gnb li .lnb li {
     font-size: 16px;
     line-height: 50px;
     }
 
-.header .centerbox .nav .gnb > li > .lnb > li > a {
+.header .centerbox .nav .gnb li .lnb li a {
     color: #fff;
     display: block;
 }
 
 
-.header .centerbox .nav .gnb > li:hover .lnb {
+.header .centerbox .nav .gnb li:hover .lnb {
     height: 200px;
 }
+
+
+.header .centerbox .nav .gnb li .lnb li a:hover {
+    background: #185c67; 
+    color: #fff;
+}
+
 
 /* 중간 흰색 라인 */
 .header .centerbox .nav .gnb .line {
