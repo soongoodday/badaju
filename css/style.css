@@ -1035,21 +1035,19 @@ body {
 
 
 .sub2 .section_wrap .section .section1 {
-    width: 1920px;
     margin: 0 auto;
 }
 
 
 .sub2 .section_wrap .section .section1 .section_box {
     width: 1320px;
-    height: 872px;
     margin: 0 auto;
-    border: 1px solid #000;
 }
 
 
 .sub2 .section_wrap .section .section1 .section_box .sub1_titlebox {
     display: flex;
+    margin-bottom: 90px;
 }
 
 
@@ -1074,21 +1072,9 @@ body {
 
 
 /* 섹션2 */
-.sub2 .section_wrap .section .section2 {
-    width: 1920px;
-}
-
-
-.sub2 .section_wrap .section .section2 .section_box {
-    width: 1320px;
-    height: 872px;
-    margin: 0 auto;
-}
-
-
 .sub2 .section_wrap .section .section2 .section_box .sub1_titlebox {
     display: flex;
-    height: 112px;
+    margin-bottom: 90px;
 }
 
 
@@ -1100,24 +1086,10 @@ body {
 
 
 .sub2 .section_wrap .section .section2 .section_box .sub1_titlebox .sub1_section_title {
+    width: 1320px;
     font-size: 40px;
     font-weight: bold;
     line-height: 140%;
     color: #319EA3;
     margin-left: 91px;
-    display: flex;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
