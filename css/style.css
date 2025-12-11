@@ -1030,7 +1030,7 @@ body {
 
 /* 섹션 */
 /* 섹션1 */
-.sub2 .section {
+.sub2 .section_wrap .section {
     margin: 0 auto;
 }
 
@@ -1094,3 +1094,129 @@ body {
     color: #319EA3;
     margin-left: 91px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 서브3 */
+/* 섹션 */
+/* 섹션1 */
+.sub3 .section_wrap .section {
+    margin: 0 auto;
+}
+
+
+.sub3 .section_wrap .section .section1 {
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+
+
+.sub3 .section_wrap .section .section1 .section_box {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+
+.sub3 .section_wrap .section .section1 .section_box .sub1_titlebox {
+    display: flex;
+    margin-bottom: 90px;
+}
+
+
+.sub3 .section_wrap .section .section1 .section_box .sub1_titlebox .sub1_section_line {
+    width: 1px;
+    height: 89px;
+    background: #a5a5a5;
+}
+
+
+.sub3 .section_wrap .section .section1 .section_box .sub1_titlebox .sub1_section_title {
+    width: 1320px;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 140%;
+    color: #319EA3;
+    margin-left: 91px;
+}
+
+
+.sub3 .section_wrap .section .section1 .section_box .sub1_sbox {
+    width: 650px;
+}
+
+
+.sub3 .section_wrap .section .section1 .section_box .sub1_sbox .sub1_sbox_title {
+    width: 650px;
+    height: 40px;
+    background: #319EA3;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 50px;
+}
+
+
+.sub3 .section_wrap .section .section1 .section_box .sub1_sbox .sub1_sbox_section {
+    font-size: 16px;
+    width: 650px;
+    color: #B9B9B9;
+    line-height: 180%;
+}
+/* 섹션1 */
