@@ -1183,7 +1183,6 @@ body {
     width: 650px;
     height: 90px;
     margin-bottom: 90px;
-    border: 1px solid blue;
 }
 
 
@@ -1207,7 +1206,6 @@ body {
 
 .sub3 .section_wrap .section .section1 .section_box .sub3_leftbox .sub3_sbox {
     width: 650px;
-    border: 1px solid red;
     margin-top: 50px;
 }
 
