@@ -332,7 +332,19 @@ body {
 
 .section3_pic li {
     width: 227px; 
-    height: 
+}
+
+
+.section3_pic li:nth-child(7) {
+    width: 227px;
+    height: 320px; 
+    border: 1px solid #a5a5a5;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #319EA3;
+    font-weight: bold;
 }
 
 
@@ -710,7 +722,7 @@ body {
 
 .footer .footer_box .bank .footer_iconbox {
     display: flex; 
-    width: 59px; 
+    width: 90px; 
     gap: 10px;
 }
 
