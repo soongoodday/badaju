@@ -2847,6 +2847,16 @@ body {
 }
 
 
+.sub6 .section_wrap .section .section1-3 .section_box .direct_askbox .direct_askbox_all .direct_askbox_leftbox li .askbox_ellipse {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #319EA3;
+    position: absolute;
+    margin-left: 5px;
+}
+
+
 .sub6 .section_wrap .section .section1-3 .section_box .direct_askbox .direct_askbox_all .direct_askbox_leftbox li:nth-child(5) {
     margin-top: 290px;
 }
