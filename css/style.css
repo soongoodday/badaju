@@ -853,6 +853,11 @@ body {
 .sub1 .visual .sub_visual1 img {
     width: 100%;
 }
+
+.sub1 .visual .sub_visual2 img {
+    width: 100%;
+    display: none;
+}
 /* 비주얼 */
 
 
