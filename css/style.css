@@ -2100,6 +2100,23 @@ body {
 
 
 /* sub5 css */
+/* 서브 대제목 */
+.sub5 .sub_title {
+    max-width: 1320px; 
+    height: 66px;
+    border: 2px solid #319EA3;
+    margin: 0 auto;
+    margin-top: 130px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #319EA3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* 서브 대제목 */
+
+
 /* 섹션1 */
 .sub5 {
 }
@@ -2424,6 +2441,23 @@ body {
 
 
 /* sub6 css */
+/* 서브 대제목 */
+.sub6 .sub_title {
+    max-width: 1320px; 
+    height: 66px;
+    border: 2px solid #319EA3;
+    margin: 0 auto;
+    margin-top: 130px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #319EA3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* 서브 대제목 */
+
+
 /* 섹션1 */
 .sub6 {
     
