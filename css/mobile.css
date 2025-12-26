@@ -1985,6 +1985,7 @@ body.sub2 {
     padding: 0;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 
@@ -1998,7 +1999,7 @@ body.sub2 {
     height: 50px;
     position: absolute;
     left: 0;
-    top: 1550px;
+    top: 0px;
     margin-left: 30px;
     background: #a5a5a5;
 }
