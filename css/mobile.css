@@ -1603,7 +1603,7 @@ html, body {
 .sub1 .section_wrap .section .section1 .section_box .sub1_section_section .sub1_sections {
     width: 100%;
     line-height: 180%;
-    font-size: 14px;
+    font-size: 15px;
     color: #5e5e5e;
 }
 
@@ -1617,16 +1617,17 @@ html, body {
 .sub1 .section_wrap .section .section1 .section_box .sub1_section_section .sub1_sections li:nth-child(1) {
     width: 100%;
     line-height: 180%;
-    font-size: 14px;
+    font-size: 15px;
     color: #5e5e5e;
 }
 
 
 .sub1_sections li:nth-child(3) {
     width: 100%;
-    height: 25px;
+    height: 28px;
+    line-height: 28px;
     background: #319EA3;
-    font-size: 14px;
+    font-size: 15px;
     color: #fff;
     text-indent: 10px;
 }
@@ -1634,9 +1635,10 @@ html, body {
 
 .sub1_sections li:nth-child(8) {
     width: 100%;
-    height: 25px;
+    height: 28px;
+    line-height: 28px;
     background: #319EA3;
-    font-size: 14px;
+    font-size: 15px;
     color: #fff;
     text-indent: 10px;
 }
@@ -1644,9 +1646,10 @@ html, body {
 
 .sub1_sections li:nth-child(13) {
     width: 100%;
-    height: 25px;
+    height: 28px;
+    line-height: 28px;
     background: #319EA3;
-    font-size: 14px;
+    font-size: 15px;
     color: #fff;
     text-indent: 10px;
 }
@@ -1681,6 +1684,7 @@ html, body {
     padding: 0;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 
@@ -1697,7 +1701,7 @@ html, body {
     height: 50px;
     position: absolute;
     left: 0;
-    top: 1120px;
+    top: 0;
     margin-left: 30px;
     background: #a5a5a5;
 }
@@ -1746,7 +1750,7 @@ html, body {
     width: 100%;
     height: 100%;
     line-height: 180%;
-    font-size: 16px;
+    font-size: 15px;
     color: #5e5e5e;
 }
 
@@ -1755,7 +1759,7 @@ html, body {
     display: flex;
     align-items: center;
     margin-top: 50px;
-    font-size: 18px;
+    font-size: 16px;
     color: #319EA3;
     font-weight: bold;
 }
