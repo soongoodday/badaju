@@ -2673,6 +2673,7 @@ body.sub2 {
     top: 0;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 
@@ -2702,7 +2703,7 @@ body.sub2 {
     height: 50px;
     position: absolute;
     left: 0;
-    top: 1190px;
+    top: 0;
     margin-left: 30px;
     background: #a5a5a5;
 }
@@ -2796,6 +2797,7 @@ body.sub2 {
     top: 0;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 
@@ -2825,7 +2827,7 @@ body.sub2 {
     height: 50px;
     position: absolute;
     left: 0;
-    top: 2560px;
+    top: 0;
     margin-left: 30px;
     background: #a5a5a5;
 }
@@ -2923,6 +2925,7 @@ body.sub2 {
     top: 0;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 
@@ -2952,7 +2955,7 @@ body.sub2 {
     height: 50px;
     position: absolute;
     left: 0;
-    top: 3625px;
+    top: 0;
     margin-left: 30px;
     background: #a5a5a5;
 }
