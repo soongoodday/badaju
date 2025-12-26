@@ -5279,7 +5279,7 @@ body.sub2 {
     line-height: 30px;
     font-size: 15px; 
     font-weight: bold;
-    color: #434343; 
+    color: #434343;
 }
 
 
@@ -5500,50 +5500,117 @@ body.sub2 {
 }
 
 
+.sub6 .section_wrap .section .section1-3 .section_box .direct_askbox {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+
+.sub6 .section_wrap .section .section1-3 .section_box .direct_askbox .ask_titlebox {
+    width: 100%; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
 .sub6 .section_wrap .section .section1-3 .section_box .direct_askbox .ask_titlebox .ask_title {
-    width: 423px; 
+    width: 100%;
     height: 30px; 
-    font-size: 18px; 
-    color: #434343; 
+    line-height: 30px;
+    font-size: 15px; 
     font-weight: bold;
+    color: #434343; 
 }
 
 
 .sub6 .section_wrap .section .section1-3 .section_box .direct_askbox .ask_titlebox .ask_more {
     width: 34px; 
     height: 30px; 
-    font-size: 16px; 
+    line-height: 30px;
+    font-size: 15px; 
     line-height: 30px; 
     color: #434343;
 }
 
 
 .sub6 .section_wrap .section .section1-3 .section_box .direct_askbox .ask_line {
-    width: 1136px; 
+    width: 90%; 
     height: 1px; 
     background: #9f9f9f; 
-    margin: 0 auto; 
-    margin-top: 8px;
+    margin: 0 auto;
 }
 
 
 .sub6 .section_wrap .section .section1-3 .section_box .direct_askbox .direct_askbox_all {
-    width: 1136px;
-    margin: 0 auto;
-    display: flex;
+    width: 100%;
+    height: 630px;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    box-sizing: border-box;
 }
 
 
 .sub6 .section_wrap .section .section1-3 .section_box .direct_askbox .direct_askbox_all .direct_askbox_leftbox {
-    width: 110px;
-    height: 706px;
-    font-size: 16px;
+    width: 25%;
+    margin: 0;
+    padding: 0 20px;
+    top: 0;
+    box-sizing: border-box;
+    font-size: 14px;
     color: #434343;
 }
 
 
-.sub6 .section_wrap .section .section1-3 .section_box .direct_askbox .direct_askbox_all .direct_askbox_leftbox li {
-    margin-top: 50px;
+.sub6 .section_wrap .section .section1-3 .section_box .direct_askbox .direct_askbox_all .direct_askbox_leftbox li:nth-child(1) {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-top: 32px;
+}
+
+
+.sub6 .section_wrap .section .section1-3 .section_box .direct_askbox .direct_askbox_all .direct_askbox_leftbox li:nth-child(2) {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-top: 46px;
+}
+
+
+.sub6 .section_wrap .section .section1-3 .section_box .direct_askbox .direct_askbox_all .direct_askbox_leftbox li:nth-child(3) {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-top: 46px;
+}
+
+
+.sub6 .section_wrap .section .section1-3 .section_box .direct_askbox .direct_askbox_all .direct_askbox_leftbox li:nth-child(4) {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-top: 46px;
+}
+
+
+.sub6 .section_wrap .section .section1-3 .section_box .direct_askbox .direct_askbox_all .direct_askbox_leftbox li:nth-child(5) {
+    width: 120%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-top: 278px;
 }
 
 
@@ -5557,88 +5624,95 @@ body.sub2 {
 }
 
 
-.sub6 .section_wrap .section .section1-3 .section_box .direct_askbox .direct_askbox_all .direct_askbox_leftbox li:nth-child(5) {
-    margin-top: 290px;
-}
-
-
-
 .sub6 .section_wrap .section .section1-3 .section_box .direct_askbox .direct_askbox_all .direct_askbox_rightbox {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0 20px;
+    top: 0;
+    box-sizing: border-box;
 }
 
 
 .sub6 .section_wrap .section .section1-3 .section_box .direct_askbox .direct_askbox_all .direct_askbox_rightbox li:nth-child(1) input {
-    width: 1025px;
+    width: 100%;
     height: 40px;
     border: 1px solid #9F9F9F;
-    margin-top: 42px;
+    margin-top: 20px;
     color: #434343;
-    font-size: 16px;
+    font-size: 14px;
     text-indent: 10px;
 }
 
 
 .sub6 .section_wrap .section .section1-3 .section_box .direct_askbox .direct_askbox_all .direct_askbox_rightbox li:nth-child(2) input {
-    width: 1025px;
+    width: 100%;
     height: 40px;
     border: 1px solid #9F9F9F;
-    margin-top: 28px;
+    margin-top: 20px;
     background: #F3F3F3;
-    font-size: 16px;
+    font-size: 14px;
     color: #434343;
     text-indent: 10px;
 }
 
 
 .sub6 .section_wrap .section .section1-3 .section_box .direct_askbox .direct_askbox_all .direct_askbox_rightbox li:nth-child(3) input {
-    width: 1025px;
+    width: 100%;
     height: 40px;
     border: 1px solid #9F9F9F;
-    margin-top: 28px;
+    margin-top: 20px;
     background: #F3F3F3;
-    font-size: 16px;
+    font-size: 14px;
     color: #434343;
     text-indent: 10px;
 }
 
 
 .sub6 .section_wrap .section .section1-3 .section_box .direct_askbox .direct_askbox_all .direct_askbox_rightbox li:nth-child(4) input {
-    width: 1025px;
+    width: 100%;
     height: 280px;
     border: 1px solid #9F9F9F;
-    margin-top: 28px;
+    margin-top: 20px;
     background: #F3F3F3;
-    font-size: 16px;
+    font-size: 14px;
     color: #434343;
     text-indent: 10px;
 }
 
 
 .sub6 .section_wrap .section .section1-3 .section_box .direct_askbox .direct_askbox_all .direct_askbox_rightbox li:nth-child(5) input {
-    width: 1025px;
-    height: 100px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    box-sizing: border-box;
     border: 1px solid #9F9F9F;
-    margin-top: 28px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 14px;
 }
 
 
 .sub6 .section_wrap .section .section1-3 .section_box .direct_askbox .summit_box {
-    width: 1025px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 202px;
+    width: 100%;
+    margin: 0;
+    padding: 0 20px;
+    top: 0;
+    box-sizing: border-box;
 }
 
 
 .sub6 .section_wrap .section .section1-3 .section_box .direct_askbox .summit_box .badaju_summit input {
-    width: 466px;
-    height: 40px;
+    width: 180px;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    box-sizing: border-box;
     background: #319EA3;
-    font-size: 18px;
+    font-size: 15px;
     color: #fff;
     border: none;
 }
@@ -5652,15 +5726,16 @@ body.sub2 {
 .sub6 .section_wrap .section .section1-3 .section_box .direct_askbox .summit_box .summit_line {
     width: 1px;
     height: 40px;
-    background: 9f9f9f;
+    background: #9f9f9f;
+    display: none;
 }
 
 
 .sub6 .section_wrap .section .section1-3 .section_box .direct_askbox .summit_box .badaju_rewrite input {
-    width: 466px;
+    width: 180px;
     height: 40px;
     background: #F5F5F5;
-    font-size: 18px;
+    font-size: 15px;
     color: #434343;
     border: none;
 }
