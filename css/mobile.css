@@ -4330,16 +4330,20 @@ body.sub2 {
 }
 
 
-.sub5 .section_wrap .section .section2 .section_box .badaju_qr {
+.sub5 .section_wrap .section .section2 .section_box .badaju_qr,
+.sub5 .section_wrap .section .section3 .section_box .badaju_qr {
     width: 100%;
     margin: 0 auto;
     padding: 0 30px;
+    display: flex;
+    justify-content: center;
     gap: 100px;
     box-sizing: border-box;
 }
 
 
-.sub5 .section_wrap .section .section2 .section_box .badaju_qr .badaju_sns1 {
+.sub5 .section_wrap .section .section2 .section_box .badaju_qr .badaju_sns1,
+.sub5 .section_wrap .section .section3 .section_box .badaju_qr .badaju_sns1 {
     width: 30%;
     margin: 0;
     padding: 0;
@@ -4348,7 +4352,8 @@ body.sub2 {
 }
 
 
-.sub5 .section_wrap .section .section2 .section_box .badaju_qr .badaju_sns1 img {
+.sub5 .section_wrap .section .section2 .section_box .badaju_qr .badaju_sns1 img,
+.sub5 .section_wrap .section .section3 .section_box .badaju_qr .badaju_sns1 img {
     width: 100%;
     margin: 0;
     padding: 0;
@@ -4357,7 +4362,8 @@ body.sub2 {
 }
 
 
-.sub5 .section_wrap .section .section2 .section_box .badaju_qr .badaju_sns2 {
+.sub5 .section_wrap .section .section2 .section_box .badaju_qr .badaju_sns2,
+.sub5 .section_wrap .section .section3 .section_box .badaju_qr .badaju_sns2 {
     width: 30%;
     margin: 0;
     padding: 0;
@@ -4366,7 +4372,8 @@ body.sub2 {
 }
 
 
-.sub5 .section_wrap .section .section2 .section_box .badaju_qr .badaju_sns2 img {
+.sub5 .section_wrap .section .section2 .section_box .badaju_qr .badaju_sns2 img,
+.sub5 .section_wrap .section .section3 .section_box .badaju_qr .badaju_sns2 img {
     width: 100%;
     margin: 0;
     padding: 0;
@@ -4376,13 +4383,14 @@ body.sub2 {
 
 
 /* 섹션3 */
-.sub5 .section_wrap .section {
+.sub5 .section_wrap .section .section3 {
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .sub5 .section_wrap .section .section3 .section_box {
@@ -4436,51 +4444,6 @@ body.sub2 {
     line-height: 150%;
     color: #319EA3;
     margin-left: 60px;
-}
-
-
-.sub5 .section_wrap .section .section3 .section_box .badaju_qr {
-    width: 36%;
-    margin: 0;
-    padding: 0 30px;
-    gap: 100px;
-    box-sizing: border-box;
-}
-
-
-.sub5 .section_wrap .section .section3 .section_box .badaju_qr .badaju_sns1 {
-    width: 30%;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 15px;
-}
-
-
-.sub5 .section_wrap .section .section3 .section_box .badaju_qr .badaju_sns1 img {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    margin-bottom: 10px;
-}
-
-
-.sub5 .section_wrap .section .section3 .section_box .badaju_qr .badaju_sns2 {
-    width: 30%;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 15px;
-}
-
-
-.sub5 .section_wrap .section .section3 .section_box .badaju_qr .badaju_sns2 img {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    margin-bottom: 10px;
 }
 
 
