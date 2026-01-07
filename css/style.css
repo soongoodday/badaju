@@ -146,12 +146,19 @@ body {
 
 
 /* 중간 흰색 라인 */
-.header .centerbox .nav .gnb .line {
+.header .centerbox .nav .gnb li::before {
+    content: '';
     width: 1px; 
     height: 16px; 
-    background: #fff; 
-    margin-left: 10px; 
-    margin-right: 10px;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+
+
+.header .centerbox .nav .gnb li:last-child::before {
+    display: none;
 }
 /* 헤더 */
 
