@@ -54,7 +54,6 @@ body {
     flex-grow: 1;
     justify-content: end;
     display: flex;
-    margin-right: 60px;
 }
 
 /* 로그인박스 */
