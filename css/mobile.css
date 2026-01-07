@@ -1076,8 +1076,8 @@ html, body {
 /* footer */
 .footer {
     width: 100%;
-    height: 100%;
-    margin: 0 auto;
+    height: auto;
+    margin: 0;
     background: #414141; 
     font-size: 0;
     display: flex;
@@ -1085,6 +1085,7 @@ html, body {
     justify-content: center;
     align-items: center;
     padding: 0;
+    box-sizing: border-box;
 }
 /* footer */
 
@@ -1109,7 +1110,8 @@ html, body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 40px;
     box-sizing: border-box;
 }
 
@@ -4296,7 +4298,7 @@ body.sub2 {
 .sub6 .footer {
     width: 100%;
     height: auto;
-    margin: 0 auto;
+    margin: 0;
     background: #414141; 
     font-size: 0;
     display: flex;
@@ -4304,6 +4306,7 @@ body.sub2 {
     justify-content: center;
     align-items: center;
     padding: 0;
+    box-sizing: border-box;
 }
 /* footer */
 
@@ -4343,7 +4346,7 @@ body.sub2 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 30px;
+    padding-top: 10px;
     box-sizing: border-box;
 }
 
@@ -4358,7 +4361,6 @@ body.sub2 {
     font-size: 14px; 
     color: #A2A2A2;
     text-align: center;
-    margin-top: 30px;
 }
 
 
