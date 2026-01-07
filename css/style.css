@@ -704,6 +704,7 @@ body {
     background: #414141; 
     margin: 0 auto;
     font-size: 0;
+
 }
 /* footer */
 
@@ -736,9 +737,9 @@ body {
 
 .footer .footer_box .copyright {
     width: 564px; 
-    font-size: 14px; 
+    font-size: 15px; 
     color: #A2A2A2;
-    line-height: 130%;
+    line-height: 160%;
 }
 
 
